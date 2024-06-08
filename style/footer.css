@@ -1,0 +1,18 @@
+footer{
+    display: flex;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer__rodape{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}

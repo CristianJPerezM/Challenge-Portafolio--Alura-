@@ -1,0 +1,79 @@
+.skills{
+    height: 200px;
+    width: 300px;
+}
+
+
+.skills__title{
+    padding: 20px;
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold
+}
+
+.skills__line{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    align-items: center;
+}
+
+.skills__box{
+    padding: 14px;
+    display: block;
+    margin: 0 auto;
+}
+
+
+.skills__box ul{
+    text-align: center;
+    align-items: center;
+    padding: 15px 0;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.skills__name{
+    padding: 15px 0;
+}
+
+
+/* Desktop y tablet */
+/* 
+.skills{
+    height: 200px;
+    width: 900px;
+    align-items: center;
+}
+
+
+.skills__title{
+    padding: 20px;
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold
+}
+
+.skills__line{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    align-items: center;
+}
+
+.skills__box{
+    padding: 15px;
+    display: block;
+    margin: 0 auto;
+}
+
+
+.skills__box ul{
+    text-align: center;
+    align-items: center;
+    width: 80px;
+    padding: 15px 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+*/

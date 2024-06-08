@@ -1,0 +1,253 @@
+/*Sección Menu*/
+section.menu{
+    display: flex;
+    width: 90%;
+    height: 50px;
+    align-items: center;
+    justify-content: space-between;
+    gap: 410px;
+    padding: 30px 10px;
+    flex-direction: row;
+    flex: none;
+    flex-grow: 0;
+    order: 0;
+}
+
+/* caja img - nombre */
+.menu__header{
+    display: flex;
+    flex-grow: 0;
+    gap: 5px;
+    align-items: center;
+    padding: 0 10px;
+    margin: 0 auto;
+    flex: none;
+    order: 0;
+    width: 199px;
+    height: 24px;
+}
+
+/* img de estrellas */
+.menu__header img{
+    width: 24px;
+    height: 24px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+/* nombre o autor */
+.menu__title{
+    width: 323px;
+    height: 20px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 19px;
+    color: #464646;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+/* menu de lista */
+.menu__list{
+    display: flex;
+    position: relative;
+    width: 710px;
+    gap: 20px;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.title__div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.title__profile{
+    position: relative;
+    left: 65%;
+}
+
+.title__container{
+    position: relative;
+    right: 40%;
+}
+.title__bio{
+    padding: 20px 0;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: bold;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+section.about{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 60px 50px;
+}
+
+.about__title{
+    width: 166px;
+    height: 58px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    color: #464646;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.about__paragraph{
+    width: 751px;
+    height: 100px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #464646;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+section.skills{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+    width: 1136px;
+    height: 174px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+section.hobbies{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+    width: 1136px;
+    height: 174px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+/*Sección Title*/
+
+.section.title{
+
+position: relative;
+/* width: 1440px;
+height: 5020px; */
+
+/* Preto/05% */
+/* background: #F5F5F5; */
+
+
+}
+
+/*Sección About*/
+
+section.about{
+
+}
+
+/*Sección Hobbies*/
+
+section.hobbies{
+    
+}
+
+/* Experiencia Académica*/
+
+section.academic{
+
+}
+
+/* experiencia*/
+
+section.experience{
+
+}
+
+/*Contacto*/
+
+section.formcontato{
+
+}
+
+/*footeer*/
+
+section.footer{
+   
+}
+
+/* Vamos a desafiarnos trabajando con responsividad?
+Utiliza las referencias de los breakpoints @media abajo */
+
+
+/*Tablet*/
+@media (min-width: 768px) {
+
+/* Menú */
+
+/*title*/
+
+/*Skills*/
+
+/*Hobbies*/
+
+/*Formación Académica*/
+
+/*Experiencia Profesional*/
+
+}
+
+/*Mobile*/
+@media (min-width: 425px) {
+
+/*Menu*/
+
+/*Titulo*/
+
+/*Sección sobre mi*/
+
+/*Skills*/
+
+/*Hobbies*/
+ 
+/*Formación Académica*/
+
+/*Experiencia Profesional*/
+
+ /*Contacto*/
+
+/*Footer*/
+
+}

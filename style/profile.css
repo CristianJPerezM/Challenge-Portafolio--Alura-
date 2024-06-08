@@ -1,0 +1,239 @@
+section.profile{
+    display: flex;
+}
+
+.title__div{
+    display: flex;
+    align-items: center;
+    text-align: justify;
+}
+
+.img__profile{
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
+}
+
+.title__container{
+    display: flex;
+    flex-direction: column;
+}
+
+.title__bio{
+    display: flex;
+    font-weight: bold;
+}
+
+.title__subsection{
+    font-weight: 400;
+    font-size: 2.2rem;
+    line-height: 2.583rem;
+    text-align: justify;
+}
+
+.title__network{
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+
+/* Tamaños mayores a 0 */
+@media screen and (min-width:0px) {
+    section.profile{
+        margin-inline-start: 1.2rem;
+        margin-inline-end: 1.2rem;
+        margin-block-start: 5.85rem;
+    }
+
+    .title__div{
+        flex-flow: column;
+    }
+
+    .img__profile{
+        width: 15rem;
+        height: 9.8rem;
+        margin-inline-start: 1.6rem;
+        margin-block-end: 1.6rem;
+    }
+
+    .title__bio{
+        font-size: 2.2rem;
+        line-height: 2.583rem;
+    }
+
+    .title__subsection{
+        font-size: 1.4rem;
+        line-height: 1.644rem;
+        font-weight: 400;
+        padding-top: 1.6rem;
+        padding-bottom: 1.6rem;
+    }
+
+    .title__network{
+        margin-block-end: 1.6rem;
+    }
+}
+
+
+/* Tamaños mayores a 768 */
+@media screen and (min-width:768px) {
+    section.profile{
+        margin-inline-start: 3.2rem;
+        margin-inline-end: 3.2rem; 
+        margin-block-start: 3.45rem;
+    }
+
+    .title__div{
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+
+    .img__profile{
+        width: 14.6rem;
+        height: 14.6rem;
+    }
+
+    .title__bio{
+        font-size: 2.2rem;
+        font-weight: 700;
+        line-height: 2.583rem;
+    }
+
+    .title__subsection{
+        font-size: 1.6rem;
+        padding-top: 0.8rem;
+        padding-bottom: 1.5rem;
+        line-height: 1.878rem;
+    }
+
+    .title__network{
+        margin-bottom: 4.25rem;
+    }
+}
+
+
+/* Tamaños menores a 1080 */
+@media screen and (min-width:1080px) {
+    section.profile{
+        margin-inline-start: 3.2rem;
+        margin-inline-end: 3.2rem;
+        margin-block-start: 6.65rem;
+        padding-bottom: 6.4rem;
+    }
+
+    .title__div{
+        flex-direction: row-reverse;
+    }
+
+    .img__profile{
+        width: 25rem;
+        height: 20rem;
+    }
+
+    .title__bio{
+        font-weight: 700;
+        font-size: 2.2rem;
+        line-height: 26px;
+    }
+
+    .title__subsection{
+        font-size: 2.2rem;
+        padding-top: 2.4rem;
+        padding-bottom: 2.65rem;
+    }
+
+    .title__network{
+        margin-bottom: 9.55rem;
+    }
+}
+
+/* Tamaños mayores a 1440 */
+@media screen and (min-width:1440px) {
+    section.profile{
+        margin-inline-start: 15.2rem;
+        margin-inline-end: 15.2rem; 
+        margin-block-start: 6.65rem;
+    }
+
+    .title__div{
+        flex-direction: row-reverse;
+    }
+
+    .img__profile{
+        width: 36.8rem;
+        height: 36.8rem;
+    }
+
+    .title__bio{
+        font-size: 5.2rem;
+        font-weight: 700;
+        line-height: 6.1rem;
+    }
+
+    .title__subsection{
+        font-size: 2.2rem;
+        padding-top: 2.4rem;
+        line-height: 2.6rem;
+    }
+
+    .title__network{
+        margin-bottom: 9.55rem;
+    }
+}
+
+
+
+
+
+
+
+
+/* .profile{
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    justify-content: space-between;
+
+}
+
+.img__profile{
+    display: flex;
+    align-items: center;
+    padding: 30px 20px;
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
+    height: 250px;
+    width: 450px;
+}
+
+.title__container{
+    padding: 0 20px;
+}
+
+.title__bio{
+    font-size: 26px;
+    text-align: justify;
+    font-weight: bold;
+}
+
+.title__subsection{
+    padding: 15px 0;
+    
+}
+
+.title__network{
+    display: flex;
+    flex-direction: row;
+    padding: 15px 0;
+    gap: 20px;
+}
+
+
+@media (min-width: 768px) {
+    .title__div {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        text-align: justify;
+    }
+} */

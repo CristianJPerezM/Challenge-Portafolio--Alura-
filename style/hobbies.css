@@ -1,0 +1,36 @@
+.hobbies{
+    height: 200px;
+    width: 300px;
+}
+
+.hobbies__title{
+    padding: 20px;
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.hobbies__line{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    align-items: center;
+}
+
+.hobbies__box{
+    padding: 14px;
+    display: block;
+    margin: 0 auto;
+}
+
+.hobbies__box ul{
+    text-align: center;
+    align-items: center;
+    padding: 15px 0;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.hobbies__name{
+    padding: 15px 0;
+}

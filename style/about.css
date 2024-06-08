@@ -1,0 +1,71 @@
+section.about{
+    background-color: rgb(225, 245, 253);
+    display: flex;
+    text-align: justify;
+}
+
+.about__container{
+    display: flex;
+    flex-flow: column;
+}
+
+.about__title{
+    padding: 15px;
+    font-size: 26px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.about__paragraph{
+    font-size: 20px;
+    line-height: 20px;
+    padding-bottom: 2rem;
+}
+
+.about__signature{
+    width: 200px;
+    height: auto;
+    margin: auto;
+}
+
+/* Tamaños mayores a 0 */
+@media screen and (min-width:0px) {
+    section.about{
+        padding-right: 1.6rem;
+        padding-left: 1.6rem;    
+    }
+
+    .about__paragraph{
+        padding-right: 1.6rem;
+        padding-left: 1.6rem;
+    }
+}
+
+/* Tamaños mayores a 768px */
+@media screen and (min-width:768px) {
+    section.about{
+        padding-right: 3.2rem;
+        padding-left: 3.2rem;
+    }
+}
+
+/* Tamaños menores a 1080 */
+@media screen and (min-width:1080px) {
+    section.about{
+        padding-right: 3.2rem;
+        padding-left: 3.2rem;
+    }
+
+    .about__paragraph{
+        padding-right: 3.2rem;
+        padding-left: 3.2rem;
+    }
+}
+
+/* Todos mayores que 1440 */
+@media screen and (min-width:1440px) {
+    section.about{
+        padding-bottom: 6.4rem;
+        padding-left: 15.2rem;    
+    }
+}
